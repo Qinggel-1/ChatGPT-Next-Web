@@ -7,7 +7,7 @@ const cn = {
   WIP: "该功能仍在开发中……",
   Error: {
     Unauthorized: isApp
-      ? "检测到无效 API Key，请前往[设置](/#/settings)页检查 API Key 是否配置正确。"
+      ? "# 现在开始用全球最火AI聊天机器人——ChatGPT\nChatGPT Next Web正在调用OpenAI官方的API接口为您服务；\n本应用还支持使用你自己的 OpenAI API Key（亦可[联系站长，代注册及搭建专属应用](https://ace6.cn/chat-ty)，保证实惠！）。\n站长搭建本应用纯属普惠AI技术，若有网友需要搭建同款、对外提供收费服务、探索商业化及运营方面的指导，亦可[联系站长](https://ace6.cn/chat-ty)寻求技术支持。\n现阶段本站主要以提供代搭建、提供更高效准确的提示（prompt）支持为收费服务内容！\n**现在请给ChatGPT发送问题或指令，TA将尽力为您提供最准确和有用的回答。**"
       : "访问密码不正确或为空，请前往[登录](/#/auth)页输入正确的访问密码，或者在[设置](/#/settings)页填入你自己的 OpenAI API Key。",
   },
   Auth: {
@@ -310,7 +310,7 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: "# 现在开始用全球最火AI聊天机器人——ChatGPT\nChatGPT Next Web正在调用OpenAI官方的API接口为您服务；\n本应用还支持使用你自己的 OpenAI API Key（亦可[联系站长，代注册及搭建专属应用](https://ace6.cn/chat-ty)，保证实惠！）。\n站长搭建本应用纯属普惠AI技术，若有网友需要搭建同款、对外提供收费服务、探索商业化及运营方面的指导，亦可[联系站长](https://ace6.cn/chat-ty)寻求技术支持。\n现阶段本站主要以提供代搭建、提供更高效准确的提示（prompt）支持为收费服务内容！\n**现在请给ChatGPT发送问题或指令，TA将尽力为您提供最准确和有用的回答。**",
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
